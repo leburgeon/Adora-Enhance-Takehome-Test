@@ -22,13 +22,13 @@ pip install -r requirements.txt
 
 ```bash
 # 1. Process a raw data file
-python process_raw_data.py data/RAW_DATA_0.csv
+python process_raw_data.py <path_to_data>.csv
 
 # 2. Analyse the processed data
-python analyse_processed_data.py PROCESSED_DATA.csv
+python analyse_processed_data.py <path_to_data>.csv
 
 # 3. Extract top keywords from titles
-python get_keywords.py PROCESSED_DATA.csv
+python get_keywords.py <path_to_data>.csv
 ```
 
 ## Tests
